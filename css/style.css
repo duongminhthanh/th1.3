@@ -1,0 +1,91 @@
+/**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+    padding: 70px;
+}
+header{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,rgba(126,213,111,0.6),rgba(40,180,131,0.6));
+    background-size: cover;
+    clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+    position: relative;
+}
+.logo img{
+    height: 100px;
+}
+.container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,505);
+    text-align: center;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: white;
+    display: inline-block;
+    justify-content: space-between;
+    
+}
+footer .container{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.heading{
+    color:#fff;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.heading-title{
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 33px;
+    animation-name: hieu-ung-di-chuyen-sang-trai;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+.heading-sub{
+    display: block;
+    font-size: 20px;
+    letter-spacing: 120px;
+    animation-name: hieu-ung-di-chuyen-sang-phai;
+    animation-duration:2s;
+    animation-timing-function: ease-out;
+}
+ul{
+    overflow: hidden;
+    background-color: lightblue;
+}
+li{
+   display: inline-block
+}
+li a{
+    display:inline-block;
+    padding: 10px;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a:hover{
+    color:yellow ;
+    background-color: #ce3e6e;
+    font-weight: bold; 
+}
+li a:active
+{
+    color: green;
+}
